@@ -4,7 +4,7 @@
     margin-left: 1050px;
     cursor: pointer;
   }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     #header {
     margin-left: 50px;
     position: fixed;
