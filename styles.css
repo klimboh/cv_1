@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 #header {
     position: fixed;
-    margin-left: 1050px;
+    margin-left: 1150px;
     cursor: pointer;
   }
-@media (max-width: 1000px) {
-    #header {
-    margin-left: 50px;
-    position: fixed;
-}
-}
+
 .menu{
     width: 40px;
     height: 40px;
@@ -79,23 +74,7 @@ body{
             0 0 .2rem #fff,
             inset 0 0 1.3rem #dedae6;
 }
-@media (max-width: 500px) {
-    .info {
-      margin-bottom: 3 0px;
-      font-size: 1rem;
-      display: block;
-      text-align: center;
-    }
-  
-    .avatar {
-      width: 75%;
-      margin: auto;
-    }
-  
-    .info-text h1 {
-      margin: auto;
-    }
-}
+
 ul,li {
   list-style: none;
   display: inline;
@@ -187,15 +166,7 @@ font-size:20px;
   padding-left: 10px;
   padding-top: 10px;
 }
-@media (max-width: 500px) {
-    .table-job h2 {
-      margin-top: 40px;
-      padding: 0;
-      width: auto;
-      text-align: center;
-      margin: 0;
-    }
-  }
+
 
 .login-box {
     position: relative;
@@ -285,12 +256,7 @@ font-size:20px;
     height: 2px;
     animation: btn-anim1 1s linear infinite;
   }
-  @media (max-width: 500px) {
-    .login-box {
-      width: 75%;
-      margin: auto;
-    }
-  }
+  
   .wrapper {
     height: 100vh;
     display: flex;
